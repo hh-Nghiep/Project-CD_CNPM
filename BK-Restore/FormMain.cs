@@ -1,11 +1,9 @@
-﻿using DevExpress.Xpo.DB.Helpers;
-using DevExpress.XtraBars;
+﻿using DevExpress.XtraBars;
 using DevExpress.XtraEditors;
 using DevExpress.XtraSplashScreen;
 using System;
 using System.Data;
 using System.Drawing;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -277,7 +275,6 @@ namespace BK_Restore
 			{
 				resultExec = Program.ExecSqlNonQuery(queryString, Program.ConnectionString);
 			});
-
 			return 0;
 		}
 
@@ -312,9 +309,7 @@ namespace BK_Restore
 			string physicalName = Program.DefaultPath + "\\" + deviceName + ".bak";
 			string queryString = string.Format(CONS.QUERYSTRING.CREATE_DEVICE,
 															deviceName, physicalName);
-
 			int resultExec = Program.ExecSqlNonQuery(queryString, Program.ConnectionString);
-
 			if (resultExec == 0)
 			{
 				XtraMessageBox.Show("Tạo device thành công", "SUCCESS",
@@ -379,7 +374,6 @@ namespace BK_Restore
 					new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, ((byte)(0)));
 			}
 		}
-
 		private void btnDeleteBackup_Click(object sender, EventArgs e)
 		{
 			int backupSetId = int.Parse(((DataRowView)bdsBackup.Current)["backup_set_id"].ToString());
@@ -424,7 +418,7 @@ namespace BK_Restore
 				}
 				query = queryDeleteRestoreHistory + query;
 			}
-
+			LOG.DEBUG("Delete backup query", "", query);
 			return Program.ExecSqlNonQuery(query, Program.ConnectionString);
 		}
 
@@ -471,5 +465,38 @@ namespace BK_Restore
 		{
 			
 		}
-	}
+
+        private void gcDatabases_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fillByToolStripButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fillByToolStripButton1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.taBackup.FillBy(this.dataSet.SP_STT_BACKUP, dbNameToolStripTextBox.Text);
+            }
+            catch (System.Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show(ex.Message);
+            }
+
+        }
+
+        private void fillByToolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void gcBackup_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

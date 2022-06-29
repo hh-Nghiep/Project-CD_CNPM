@@ -121,13 +121,19 @@
     <value>3, 3</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>108</value>
+    <value>171</value>
   </metadata>
+  <metadata name="fillByToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1334, 165</value>
+  </metadata>
+  <data name="memoEditDoc.EditValue" xml:space="preserve">
+    <value>Hướng dẫn: Ngày giờ ta nhập vào là thời diểm ta muốn phục hồi cơ sở dữ liệu về đó. Thời điểm này phải sau thời điểm của bản sao lưu mà ta đã chọn trên lưới, và trước thời điểm hiện tại ít nhất là 1 phút.</value>
+  </data>
   <metadata name="cmsBackup.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>775, 3</value>
+    <value>373, 60</value>
   </metadata>
   <metadata name="bdsBackup.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>591, 3</value>
+    <value>450, 9</value>
   </metadata>
   <metadata name="dataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>107, 3</value>
@@ -139,7 +145,7 @@
     <value>186, 3</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="FormMain.IconOptions.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAYAEBAAAAEAIABoBAAAZgAAAAAAAAABACAA0DIAAM4EAAAwMAAAAQAgAKglAACeNwAAICAAAAEA
         IACoEAAARl0AAICAAAABACAAKAgBAO5tAABAQAAAAQAgAChCAAAWdgEAKAAAABAAAAAgAAAAAQAgAAAA
@@ -2022,34 +2028,28 @@
         /////////////////////////////w==
 </value>
   </data>
-  <metadata name="dataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>107, 3</value>
-  </metadata>
   <metadata name="taDatabases.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>299, 3</value>
+    <value>1058, 38</value>
   </metadata>
   <metadata name="bdsDevices.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>403, 3</value>
+    <value>346, 5</value>
   </metadata>
   <metadata name="taDevices.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>502, 3</value>
+    <value>1065, 81</value>
   </metadata>
   <metadata name="taBackup.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>688, 3</value>
+    <value>1065, 165</value>
   </metadata>
-  <data name="memoEditDoc.EditValue" xml:space="preserve">
-    <value>Hướng dẫn: Ngày giờ ta nhập vào là thời diểm ta muốn phục hồi cơ sở dữ liệu về đó. Thời điểm này phải sau thời điểm của bản sao lưu mà ta đã chọn trên lưới, và trước thời điểm hiện tại ít nhất là 1 phút.</value>
-  </data>
   <metadata name="bdsKeys.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>874, 3</value>
+    <value>29, 69</value>
   </metadata>
   <metadata name="taKeys.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>956, 3</value>
+    <value>1066, 0</value>
   </metadata>
   <metadata name="bdsBackupSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>3, 30</value>
   </metadata>
   <metadata name="taBackupSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>118, 28</value>
+    <value>1080, 119</value>
   </metadata>
 </root>

@@ -10,7 +10,6 @@ namespace BK_Restore
 	{
 		public static string ConnectionString;
 		public static SqlDataAdapter DataAdapter = null;
-
 		public static string ServerName = null;
 		public static string UserName = null;
 		public static string Password = null;
@@ -36,7 +35,6 @@ namespace BK_Restore
 			}
 			catch (Exception)
 			{
-				//ShowError(ex);
 				return false;
 			}
 		}
